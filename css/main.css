@@ -1,24 +1,22 @@
-.col-sm{
- padding: 10px;
- margin: 10px 5px;
- font-size: 24px;
-}
-
-.btn-primary{
- background-color: gray;
-}
-
-/* Centered text */
 .centered {
  position: absolute;
  top: 50%;
  left: 50%;
  transform: translate(-50%, -50%);
+ color: white;
+ font-size: 20px;
 }
 
-/*
-.container {
- position: relative;
- text-align: center;
- color: white;
-}*/
+.menu ul li{
+ display: inline;
+ list-style-type: none;
+ padding-right: 20px;
+ float: left;
+}
+
+.menu {
+ float: right;
+}
+.logo {
+ float: left;
+}
